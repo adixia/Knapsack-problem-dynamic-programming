@@ -144,7 +144,7 @@ int main(void){
     wt[i]=currW;
   }
 
-  printf("the table generated is above: \n");
+  printf("the table generated is below: \n");
   switch (option){
     case 1:
     invertMatrix(knapsack(W, wt, val, n),n+1,W+1);
